@@ -1,0 +1,19 @@
+.navigation-list__item--agency-underline::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 53px;
+  height: 4px;
+  top: 46px;
+  background-image: url(../images/underline53px.svg);
+}
+
+.navigation-list__item--portfolio-underline::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 58px;
+  height: 4px;
+  top: 46px;
+  background-image: url(../images/underline58px.svg);
+}

@@ -1,0 +1,42 @@
+.boxes {
+  display: flex;
+  list-style: none;
+  margin-bottom: 94px;
+}
+
+.secondary-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+
+.container .pictures {
+  display: flex;
+  list-style: none;
+}
+
+.pictures__picture-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.pictures__thumb {
+  position: relative;
+  overflow: hidden;
+
+  & > .pictures__label {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    margin: 0;
+    background: rgba(47, 48, 58, 0.8);
+
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 27px;
+  }
+}
