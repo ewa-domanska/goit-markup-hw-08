@@ -50,30 +50,36 @@
 
 .navigation {
   display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+  }
 }
 
 .header-contact-data {
   display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
 
 .burger-menu {
   margin-left: auto;
-  order: 2;
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
 }
 
-@media screen and (min-width: $tablet){
-  .navigation {
-    display: block;
-  }
-
-  .header-contact-data {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-
-  .burger-menu {
-    display: none;
+.header-contact-data__line:first-child {
+  @media screen and (min-width: $tablet) and (max-width: $up-to-desktop) {
+    padding-bottom: 10px;
   }
 }
 

@@ -44,7 +44,7 @@
             </ul>
         </nav>
         <ul class="header-contact-data list">
-            <li>
+            <li class="header-contact-data__line">
                 <div class="header-contact-data__item">
                     <svg class="header-contact-data__contact-icon" width="16px" height="12px">
                         <use href="images/icons.svg#icon-envelope">
@@ -53,7 +53,7 @@
                     <a class="header-contact-data__contact-link link" href="tel:+48111111111">+48 111 111 111</a>
                 </div>
             </li>
-            <li>
+            <li class="header-contact-data__line">
                 <div class="header-contact-data__item">
                     <svg class="header-contact-data__contact-icon" width="10px" height="16px">
                         <use href="images/icons.svg#icon-smartphone">
@@ -65,263 +65,261 @@
         </ul>
     </div>
 </header>
-<!--<main>-->
-<!--    <section class="banner-background">-->
-<!--        <div class="container">-->
-<!--            &lt;!&ndash;Sekcja HERO&ndash;&gt;-->
-<!--            <div id="hero" class="banner-content">-->
-<!--                <h1 class="banner-content__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>-->
-<!--                <button class="banner-content__btn" type="button" data-modal-open>Zamów usługę</button>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+<main>
+    <section class="banner-background">
+        <!--Sekcja HERO-->
+        <div class="banner-content">
+            <h1 class="banner-content__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="banner-content__btn" type="button" data-modal-open>Zamów usługę</button>
+        </div>
+    </section>
 
-<!--    <section class="section">-->
-<!--        <div class="container">-->
-<!--            <ul class="boxes">-->
-<!--                <li>-->
-<!--                    <div class="boxes__box-icon">-->
-<!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
-<!--                            <use href="images/icons.svg#icon-antenna-1">-->
-<!--                            </use>-->
-<!--                        </svg>-->
-<!--                    </div>-->
-<!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
-<!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur adipiscing-->
-<!--                        elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada-->
-<!--                    </p>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <div class="boxes__box-icon">-->
-<!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
-<!--                            <use href="images/icons.svg#icon-clock-1">-->
-<!--                            </use>-->
-<!--                        </svg>-->
-<!--                    </div>-->
-<!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
-<!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur adipiscing-->
-<!--                        elit.Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <div class="boxes__box-icon">-->
-<!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
-<!--                            <use href="images/icons.svg#icon-diagram-1">-->
-<!--                            </use>-->
-<!--                        </svg>-->
-<!--                    </div>-->
-<!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
-<!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur-->
-<!--                        adipiscing-->
-<!--                        elit.Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <div class="boxes__box-icon">-->
-<!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
-<!--                            <use href="images/icons.svg#icon-astronaut-1">-->
-<!--                            </use>-->
-<!--                        </svg>-->
-<!--                    </div>-->
-<!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
-<!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur-->
-<!--                        adipiscing-->
-<!--                        elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--            <div id="o_nas"></div>-->
-<!--            <h2 class="secondary-header">Czym się zajmujemy</h2>-->
-<!--            <ul class="pictures">-->
-<!--                <li class="pictures__picture-item">-->
-<!--                    <div class="pictures__thumb">-->
-<!--                        <img src="images/Czym_sie_zajmujemy/mobile.jpg" alt="desktop and mobile"/>-->
-<!--                        <p class="pictures__label">APLIKACJE KOMPUTEROWE</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="pictures__picture-item">-->
-<!--                    <div class="pictures__thumb">-->
-<!--                        <img src="images/Czym_sie_zajmujemy/work.jpg" alt="work from home"/>-->
-<!--                        <p class="pictures__label">APLIKACJE MOBILNE</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="pictures__picture-item">-->
-<!--                    <div class="pictures__thumb">-->
-<!--                        <img src="images/Czym_sie_zajmujemy/colors.jpg" alt="colors"/>-->
-<!--                        <p class="pictures__label">ROZWIĄZANIA GRAFICZNE</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </section>-->
-<!--    <section class="section team-background">-->
-<!--        &lt;!&ndash;zespół&ndash;&gt;-->
-<!--        <div class="container">-->
-<!--            <h2 class="secondary-header">Nasz zespół</h2>-->
-<!--            <ul class="our-team">-->
-<!--                <li class="our-team__item">-->
-<!--                    <img class="our-team__photo" src="images/Zespół/product_designer.jpg"-->
-<!--                         alt="Product Designer"/>-->
-<!--                    <div class="our-team__background">-->
-<!--                        <h3 class="our-team__header-name">John Doe</h3>-->
-<!--                        <p class="our-team__header-position">Product Designer</p>-->
-<!--                        <ul class="social-list list">-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-twitter">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-facebook">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-linkedin">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="our-team__item">-->
-<!--                    <img class="our-team__photo" src="images/Zespół/Frontend_developer.jpg"-->
-<!--                         alt="Frontend Developer"/>-->
-<!--                    <div class="our-team__background">-->
-<!--                        <h3 class="our-team__header-name">John Doe</h3>-->
-<!--                        <p class="our-team__header-position">Frontend Developer</p>-->
-<!--                        <ul class="social-list list ">-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-twitter">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-facebook">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-linkedin">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="our-team__item">-->
-<!--                    <img class="our-team__photo" src="images/Zespół/Marketing.jpg" alt="Marketing"/>-->
-<!--                    <div class="our-team__background">-->
-<!--                        <h3 class="our-team__header-name">John Doe</h3>-->
-<!--                        <p class="our-team__header-position">Marketing</p>-->
-<!--                        <ul class="social-list list">-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-twitter">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-facebook">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-linkedin">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="our-team__item">-->
-<!--                    <img class="our-team__photo" src="images/Zespół/Ul_Designer.jpg" alt="Ul Designer"/>-->
-<!--                    <div class="our-team__background">-->
-<!--                        <h3 class="our-team__header-name">John Doe</h3>-->
-<!--                        <p class="our-team__header-position">Ul Designer</p>-->
-<!--                        <ul class="social-list list">-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-twitter">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-facebook">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="social-list__item link">-->
-<!--                                <a class="social-list__link" href="#">-->
-<!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
-<!--                                        <use href="images/icons.svg#icon-linkedin">-->
-<!--                                        </use>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </section>-->
-<!--</main>-->
+    <!--    <section class="section">-->
+    <!--        <div class="container">-->
+    <!--            <ul class="boxes">-->
+    <!--                <li>-->
+    <!--                    <div class="boxes__box-icon">-->
+    <!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
+    <!--                            <use href="images/icons.svg#icon-antenna-1">-->
+    <!--                            </use>-->
+    <!--                        </svg>-->
+    <!--                    </div>-->
+    <!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
+    <!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur adipiscing-->
+    <!--                        elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada-->
+    <!--                    </p>-->
+    <!--                </li>-->
+    <!--                <li>-->
+    <!--                    <div class="boxes__box-icon">-->
+    <!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
+    <!--                            <use href="images/icons.svg#icon-clock-1">-->
+    <!--                            </use>-->
+    <!--                        </svg>-->
+    <!--                    </div>-->
+    <!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
+    <!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur adipiscing-->
+    <!--                        elit.Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>-->
+    <!--                </li>-->
+    <!--                <li>-->
+    <!--                    <div class="boxes__box-icon">-->
+    <!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
+    <!--                            <use href="images/icons.svg#icon-diagram-1">-->
+    <!--                            </use>-->
+    <!--                        </svg>-->
+    <!--                    </div>-->
+    <!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
+    <!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur-->
+    <!--                        adipiscing-->
+    <!--                        elit.Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>-->
+    <!--                </li>-->
+    <!--                <li>-->
+    <!--                    <div class="boxes__box-icon">-->
+    <!--                        <svg class="boxes__box-icon&#45;&#45;color" width="70px" height="70px">-->
+    <!--                            <use href="images/icons.svg#icon-astronaut-1">-->
+    <!--                            </use>-->
+    <!--                        </svg>-->
+    <!--                    </div>-->
+    <!--                    <h3 class="boxes__box-title">LOREM IPSUM</h3>-->
+    <!--                    <p class="boxes__box-description">Lorem ipsum dolor sit amet, consectetur-->
+    <!--                        adipiscing-->
+    <!--                        elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>-->
+    <!--                </li>-->
+    <!--            </ul>-->
+    <!--            <div id="o_nas"></div>-->
+    <!--            <h2 class="secondary-header">Czym się zajmujemy</h2>-->
+    <!--            <ul class="pictures">-->
+    <!--                <li class="pictures__picture-item">-->
+    <!--                    <div class="pictures__thumb">-->
+    <!--                        <img src="images/Czym_sie_zajmujemy/mobile.jpg" alt="desktop and mobile"/>-->
+    <!--                        <p class="pictures__label">APLIKACJE KOMPUTEROWE</p>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--                <li class="pictures__picture-item">-->
+    <!--                    <div class="pictures__thumb">-->
+    <!--                        <img src="images/Czym_sie_zajmujemy/work.jpg" alt="work from home"/>-->
+    <!--                        <p class="pictures__label">APLIKACJE MOBILNE</p>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--                <li class="pictures__picture-item">-->
+    <!--                    <div class="pictures__thumb">-->
+    <!--                        <img src="images/Czym_sie_zajmujemy/colors.jpg" alt="colors"/>-->
+    <!--                        <p class="pictures__label">ROZWIĄZANIA GRAFICZNE</p>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--            </ul>-->
+    <!--        </div>-->
+    <!--    </section>-->
+    <!--    <section class="section team-background">-->
+    <!--        &lt;!&ndash;zespół&ndash;&gt;-->
+    <!--        <div class="container">-->
+    <!--            <h2 class="secondary-header">Nasz zespół</h2>-->
+    <!--            <ul class="our-team">-->
+    <!--                <li class="our-team__item">-->
+    <!--                    <img class="our-team__photo" src="images/Zespół/product_designer.jpg"-->
+    <!--                         alt="Product Designer"/>-->
+    <!--                    <div class="our-team__background">-->
+    <!--                        <h3 class="our-team__header-name">John Doe</h3>-->
+    <!--                        <p class="our-team__header-position">Product Designer</p>-->
+    <!--                        <ul class="social-list list">-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-twitter">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-facebook">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-linkedin">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                        </ul>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--                <li class="our-team__item">-->
+    <!--                    <img class="our-team__photo" src="images/Zespół/Frontend_developer.jpg"-->
+    <!--                         alt="Frontend Developer"/>-->
+    <!--                    <div class="our-team__background">-->
+    <!--                        <h3 class="our-team__header-name">John Doe</h3>-->
+    <!--                        <p class="our-team__header-position">Frontend Developer</p>-->
+    <!--                        <ul class="social-list list ">-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-twitter">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-facebook">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-linkedin">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                        </ul>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--                <li class="our-team__item">-->
+    <!--                    <img class="our-team__photo" src="images/Zespół/Marketing.jpg" alt="Marketing"/>-->
+    <!--                    <div class="our-team__background">-->
+    <!--                        <h3 class="our-team__header-name">John Doe</h3>-->
+    <!--                        <p class="our-team__header-position">Marketing</p>-->
+    <!--                        <ul class="social-list list">-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-twitter">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-facebook">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-linkedin">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                        </ul>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--                <li class="our-team__item">-->
+    <!--                    <img class="our-team__photo" src="images/Zespół/Ul_Designer.jpg" alt="Ul Designer"/>-->
+    <!--                    <div class="our-team__background">-->
+    <!--                        <h3 class="our-team__header-name">John Doe</h3>-->
+    <!--                        <p class="our-team__header-position">Ul Designer</p>-->
+    <!--                        <ul class="social-list list">-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-instagram"></use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-twitter">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-facebook">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                            <li class="social-list__item link">-->
+    <!--                                <a class="social-list__link" href="#">-->
+    <!--                                    <svg class="social-list__icon" width="20px" height="20px">-->
+    <!--                                        <use href="images/icons.svg#icon-linkedin">-->
+    <!--                                        </use>-->
+    <!--                                    </svg>-->
+    <!--                                </a>-->
+    <!--                            </li>-->
+    <!--                        </ul>-->
+    <!--                    </div>-->
+    <!--                </li>-->
+    <!--            </ul>-->
+    <!--        </div>-->
+    <!--    </section>-->
+</main>
 
 <!--&lt;!&ndash;customers&ndash;&gt;-->
 <!--<section class="section">-->
@@ -548,7 +546,7 @@
         </ul>
         <ul class="burger-mobile-menu__social-items">
             <li class="burger-mobile-menu__social-links link">
-                    <a class="link effects-transition" href="#">Instagram</a>
+                <a class="link effects-transition" href="#">Instagram</a>
             </li>
             <li class="burger-mobile-menu__social-links link">
                 <a class="link effects-transition" href="#">Twitter</a>
