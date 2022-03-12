@@ -1123,8 +1123,24 @@ label:focus > .modal-inputs__icon-input {
 }
 
 .projects-portfolio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: block;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .projects-portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .projects-portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.projects-portfolio__image-item {
+  width: 100%;
 }
 
 .projects-portfolio__image-box {
@@ -1133,7 +1149,7 @@ label:focus > .modal-inputs__icon-input {
 }
 
 .projects-portfolio__slide-up {
-  bottom: -100%;
+  bottom: -117%;
   position: absolute;
   background: #2196F3;
   opacity: 0.9;
@@ -1142,6 +1158,16 @@ label:focus > .modal-inputs__icon-input {
   letter-spacing: 0.03em;
   padding: 31px 45px 31px 24px;
   color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .projects-portfolio__slide-up {
+    bottom: -117%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .projects-portfolio__slide-up {
+    bottom: -101%;
+  }
 }
 
 .projects-portfolio__item {

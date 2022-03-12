@@ -56,17 +56,31 @@
 }
 
 .projects-portfolio {
+  display: block;
+  justify-content: center;
+
+
+  @media screen and (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+@media screen and (min-width: $desktop) {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+}
 
+.projects-portfolio__image-item {
+  width: 100%;
+}
 .projects-portfolio__image-box {
   position: relative;
   overflow: hidden;
 }
 
 .projects-portfolio__slide-up {
-  bottom: -100%;
+  bottom: -117%;
   position: absolute;
   background: #2196F3;
   opacity: 0.9;
@@ -75,6 +89,14 @@
   letter-spacing: 0.03em;
   padding: 31px 45px 31px 24px;
   color: #FFFFFF;
+
+  @media screen and (min-width: $tablet) {
+    bottom: -117%;
+  }
+
+  @media screen and (min-width: $desktop) {
+    bottom: -101%;
+  }
 }
 
 .projects-portfolio__item {
