@@ -48,10 +48,33 @@
   }
 }
 
+.navigation {
+  display: none;
+}
+
 .header-contact-data {
-  display: flex;
-  align-items: center;
+  display: none;
+}
+
+.burger-menu {
   margin-left: auto;
+  order: 2;
+}
+
+@media screen and (min-width: 768px){
+  .navigation {
+    display: block;
+  }
+
+  .header-contact-data {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .burger-menu {
+    display: none;
+  }
 }
 
 .header-contact-data__item:hover > * {
