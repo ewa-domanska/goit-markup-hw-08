@@ -397,6 +397,11 @@ label:focus > .modal-inputs__icon-input {
   top: 0;
   background-color: var(--third-color);
 }
+@media screen and (min-width: 768px) {
+  .burger-mobile-menu {
+    display: none;
+  }
+}
 
 .burger-mobile-menu__item {
   padding-bottom: 36px;
@@ -408,16 +413,16 @@ label:focus > .modal-inputs__icon-input {
   color: #212121;
 }
 
+.burger-mobile-menu__items {
+  padding-top: 48px;
+  padding-bottom: 102px;
+}
+
 .burger-mobile-menu__item--agency-color {
   color: var(--secondary-color);
 }
 
-.burger-mobile-menu__items-contact {
-  padding-top: 302px;
-}
-
 .burger-mobile-menu__item-phone {
-  margin-top: 302px;
   margin-left: 40px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -441,14 +446,15 @@ label:focus > .modal-inputs__icon-input {
 }
 
 .button__burger {
-  justify-content: flex-end;
+  float: right;
+  right: 20px;
   margin-top: 21px;
-  align-items: end;
   background-color: var(--third-color);
   border: none;
   cursor: pointer;
-  width: 100%;
-  height: 100%;
+  width: 35px;
+  height: 35px;
+  font-size: 30px;
 }
 
 .burger-mobile-menu__social-items {
@@ -458,7 +464,6 @@ label:focus > .modal-inputs__icon-input {
 
 .burger-mobile-menu__social-links {
   display: inline;
-  margin-left: 10px;
   margin-right: 10px;
   top: 726px;
   font-weight: 500;
