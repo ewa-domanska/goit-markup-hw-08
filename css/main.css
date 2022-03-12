@@ -77,8 +77,14 @@ a, a:visited, a:hover, a:active {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .backdrop {
@@ -338,9 +344,37 @@ label:focus > .modal-inputs__icon-input {
 }
 
 .boxes {
-  display: flex;
   list-style: none;
   margin-bottom: 94px;
+}
+@media screen and (min-width: 768px) {
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .boxes__item {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .boxes__item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .boxes__item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .boxes__item {
+    width: calc((100% - 90px) / 4);
+  }
+  .boxes__item:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
 }
 
 .secondary-header {
@@ -864,7 +898,6 @@ label:focus > .modal-inputs__icon-input {
   align-items: center;
   justify-content: center;
   background-color: #F5F4FA;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
 }
@@ -879,6 +912,11 @@ label:focus > .modal-inputs__icon-input {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .boxes__box-title {
+    text-align: center;
+  }
 }
 
 .boxes__box-description {
