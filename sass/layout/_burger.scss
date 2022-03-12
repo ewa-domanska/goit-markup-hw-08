@@ -5,6 +5,10 @@
   top: 0;
   background-color: var(--third-color);
 
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
   @media screen and (min-width: $tablet) {
     display: none;
   }
