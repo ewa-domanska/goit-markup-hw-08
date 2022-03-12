@@ -1,25 +1,24 @@
+@import "utils/_visually-hidden.scss";
+@import "utils/_variables.scss";
 
-@import "./utils/_visually-hidden.scss";
-@import "./utils/_variables.scss";
+@import "base/_common.scss";
+@import "base/_container.scss";
+@import "base/_section.scss";
 
-@import "./base/_common.scss";
-@import "./base/_container.scss";
-@import "./base/_section.scss";
+@import "components/_backdrop.scss";
+@import "components/_modal.scss";
+@import "components/_button";
+@import "components/_social-links.scss";
+@import "components/_underline.scss";
+@import "components/_transition.scss";
 
-@import "./components/_backdrop.scss";
-@import "./components/_modal.scss";
-@import "./components/_button";
-@import "./components/_social-links.scss";
-@import "./components/_underline.scss";
-@import "./components/_transition.scss";
-
-@import "./layout/_about-us.scss";
-@import "./layout/_burger.scss";
-@import "./layout/_contact-info.scss";
-@import "./layout/_customers.scss";
-@import "./layout/_footer.scss";
-@import "./layout/_header.scss";
-@import "./layout/_banner";
-@import "./layout/_team.scss";
-@import "./layout/_text-boxes.scss";
-@import "./layout/_portfolio.scss";
+@import "layout/_about-us.scss";
+@import "layout/_burger.scss";
+@import "layout/_contact-info.scss";
+@import "layout/_customers.scss";
+@import "layout/_footer.scss";
+@import "layout/_header.scss";
+@import "layout/_banner";
+@import "layout/_team.scss";
+@import "layout/boxes";
+@import "layout/_portfolio.scss";
