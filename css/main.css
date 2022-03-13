@@ -1032,6 +1032,11 @@ label:focus > .modal-inputs__icon-input {
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .boxes {
+    margin-bottom: 94px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .boxes__item {

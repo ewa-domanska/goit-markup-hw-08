@@ -5,8 +5,11 @@
     display: flex;
     flex-wrap: wrap;
   }
-}
 
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 94px;
+  }
+}
 .boxes__item {
   @media screen and (min-width: $tablet) {
     width: calc((100% - 30px) / 2);
