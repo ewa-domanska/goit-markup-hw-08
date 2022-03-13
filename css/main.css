@@ -416,7 +416,7 @@ label:focus > .modal-inputs__icon-input {
 
 .burger-mobile-menu__items {
   padding-top: 48px;
-  padding-bottom: 102px;
+  padding-bottom: 202px;
 }
 
 .burger-mobile-menu__item--agency-color {
@@ -444,6 +444,9 @@ label:focus > .modal-inputs__icon-input {
   letter-spacing: 0.02em;
   list-style: none;
   color: #757575;
+}
+.burger-mobile-menu__item-email:nth-child(-n+1) {
+  padding: 0;
 }
 
 .button__burger {
